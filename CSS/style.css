@@ -6,21 +6,20 @@ body{
     background-color: antiquewhite;
 }
 
-.perfil,img{
-    width:150px;
-    height: 150px;
-    margin-left: 10px;
-}
 #imagem-perfil{
+    width:200px;
+    height: 200px;
+    margin-left: 10px;
     border-radius: 50%;
     border: solid #e48d8a;
-    margin-left: 15px;
+    margin-left: 30px;
 }
 .menu, ul{
     list-style:none;
-    padding-right:20px;
+    padding-right:33px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
     line-height: 30px;
 }
 
@@ -30,16 +29,17 @@ body{
     border-width: 0.5px;
     border-color: rgb(245, 222, 193);
     position: absolute;
-    width: 20%;
-    height: 80%;
+    width: 17%;
+    height: 90%;
     padding-top: 100px;
 }
 
 .infos{
     position: absolute;
-    left: 250px;
+    margin-left: 350px;
     padding-top: 100px;
     font-family: 'Lato', sans-serif;
+    font-size: 20px;
 }
 
 h1{
@@ -47,8 +47,8 @@ h1{
 }
 
 #icones{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     margin-top: 20px;
     border-radius: 300px;
     padding: 5px;
